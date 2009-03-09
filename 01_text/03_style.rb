@@ -7,4 +7,5 @@ Shoes.app :title => 'some style' do
   @some_more_text = para "or use direct setters\n"
   @some_more_text.stroke = green
   @some_more_text.align = 'center'
+  @some_more_text.size = 16
 end
